@@ -4,9 +4,69 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+
 .container {
     background-color: rosybrown;
     width: 920px;
     margin: 0 auto;
     padding: 14px;
+    margin: 0 auto;
 }
+
+.card {
+    width: 33%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.love {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    font-size: 40px;
+    padding: 0 13px;
+}
+
+.discount {
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 5px;
+    font-weight:bold; 
+}
+
+.eco {
+    position: absolute;
+    bottom: 90px;
+    left: 60px;
+    background: green;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.card-description{
+    max-width: 100%;  
+}
+
+h4 :first-child {
+    color: red;
+}
+
+h4 :last-child {
+    text-decoration: line-through;
+}
+
+
